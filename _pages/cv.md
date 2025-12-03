@@ -18,9 +18,9 @@ Education
 Research Experience
 ======
 * **Research Assistant**, Shanghai Academy of AI for Algorithms (IAAR)
-  * *Aug 2025 - Present*
+  * *Jun 2025 - Present*
   * Topic: Continual Learning for Personalized Multimodal Generation.
-  *Addressed catastrophic forgetting in multimodal LLMs; proposed a framework incorporating lightweight parameter-efficient fine-tuning.*
+  * *Addressed catastrophic forgetting in multimodal LLMs; proposed a framework incorporating lightweight parameter-efficient fine-tuning.*
 
 * **Research Assistant**, Agency for Science, Technology and Research (A*STAR), Singapore
   * *May 2025 - Aug 2025*
