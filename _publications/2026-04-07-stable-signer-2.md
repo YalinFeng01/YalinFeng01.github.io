@@ -1,7 +1,7 @@
 ---
 title: "Stable Signer: Hierarchical Sign Language Generative Model"
 collection: publications
-category: manuscripts
+category: conference paper
 permalink: /publication/2026-04-07-stable-signer-2
 excerpt: 'This paper redefines the SLP task as a hierarchical generation end-to-end task, streamlining the traditional redundant structure and introducing a new sign language generative model called Stable Signer. It achieves a 48.6% performance improvement over current SOTA methods.'
 date: 2026-04-07

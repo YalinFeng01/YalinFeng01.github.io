@@ -1,12 +1,13 @@
 ---
 permalink: /
-title: "Welcome to my personal homepage! "
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+Welcome to my personal homepage! 
 
 I am currently a final-year Master's student at **Nanyang Technological University (NTU)**. My research interests lie firmly at the intersection of **AIGC (AI-Generated Content), Multimodal Manga/Anime Generation, and Data-Centric AI**. I am deeply passionate about pushing the boundaries of advanced generative modeling techniques, with a particular focus on Diffusion Models, Flow Matching, and MLLMs.
 
@@ -16,7 +17,7 @@ I am actively seeking **PhD opportunities** or **Research Assistant (RA)** posit
 
 News & Updates
 ======
-* **[Current]** Actively developing the new project, focusing on SDXL VAE optimization(for high quality visual consistency).
+* **[Current]** Actively developing the new project, focusing on SDXL VAE optimization (for high-quality visual consistency).
 * **[Apr 2026]** 🎉 Our paper *"Stable Signer: Hierarchical Sign Language Generative Model"* has been accepted to the **ACL 2026 Main Conference** as an **Oral Presentation**!
 * **[Jan 2026]** Concluded a fruitful 6-month Research Assistantship at the DCAI Lab, Peking University. Grateful to Prof. Wentao Zhang and the team for their guidance and collaboration.
 * **[Nov 2025]** Successfully developed and deployed a comprehensive evaluation pipeline for LLMs, establishing robust benchmarking protocols.
@@ -36,8 +37,13 @@ Selected Publications & Projects
 * *Accepted to ACL 2026 Main Conference (Oral)*
 * Co-authors: Sen Fang, **Yalin Feng**, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas.
 
+**RAC: Rectified Flow Auto Coder**
+* *arXiv preprint arXiv:2603.05925*
+* Co-authors: Sen Fang, **Yalin Feng**, Yanxin Zhang, Dimitris N. Metaxas.
+
 **DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workflow Automation in the Era of Data-Centric AI**
-* *arXiv preprint arXiv:2512.16676
-* Co-authors: Hao Liang, Xiaochen Ma, Zhou Liu ... *YalinFeng* ... Conghui He, Linpeng Tang, Bin Cui, Weinan E, Wentao Zhang
+* *arXiv preprint arXiv:2512.16676*
+* Co-authors: Hao Liang, Xiaochen Ma, Zhou Liu ... **Yalin Feng** ... Conghui He, Linpeng Tang, Bin Cui, Weinan E, Wentao Zhang.
+
 ---
 *Feel free to reach out to me regarding research collaborations or PhD opportunities!*

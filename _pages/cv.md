@@ -33,6 +33,5 @@ Publications
   {% endfor %}</ul>
   
   
-Service and Leadership
 ======
 * *Add any peer review experience, academic community service, or student leadership roles here (e.g., Reviewer for CVPR / ECCV).*
