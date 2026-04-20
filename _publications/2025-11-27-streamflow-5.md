@@ -2,7 +2,7 @@
 title: "StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-11-27-streamflow
+permalink: /publication/2025-11-27-streamflow-5
 excerpt: 'This article proposes an overall acceleration pipeline for Rectified Flow models, achieving up to 611% speedup in image generation using novel batch processing and dynamic TensorRT compilation.'
 date: 2025-11-27
 venue: 'arXiv preprint'

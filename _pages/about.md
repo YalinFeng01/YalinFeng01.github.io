@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to my personal homepage! "
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Welcome to my personal homepage! 
 
 I am currently a final-year Master's student at **Nanyang Technological University (NTU)**. My research interests lie firmly at the intersection of **AIGC (AI-Generated Content), Multimodal Manga/Anime Generation, and Data-Centric AI**. I am deeply passionate about pushing the boundaries of advanced generative modeling techniques, with a particular focus on Diffusion Models, Flow Matching, and MLLMs.
 
