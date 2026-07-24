@@ -18,7 +18,7 @@ I am actively seeking **PhD opportunities** or **Research Assistant (RA)** posit
 News & Updates
 ======
 * **[Current]** Actively developing the new project, focusing on SDXL VAE optimization (for high-quality visual consistency).
-* **[Apr 2026]** 🎉 Our paper *"Stable Signer: Hierarchical Sign Language Generative Model"* has been accepted to the **ACL 2026 Main Conference** as an **Oral Presentation**!
+* **[Apr 2026]** 🎉 Our paper *"Stable Signer: Hierarchical Sign Language Generative Model"* has been accepted to the **ACL 2026 Main Conference** as an **Oral Presentation** and received a **Best Paper Nomination**!
 * **[Jan 2026]** Concluded a fruitful 6-month Research Assistantship at the DCAI Lab, Peking University. Grateful to Prof. Wentao Zhang and the team for their guidance and collaboration.
 * **[Nov 2025]** Successfully developed and deployed a comprehensive evaluation pipeline for LLMs, establishing robust benchmarking protocols.
 * **[Sep 2025]** Completed the core architecture for the PDF-to-Model (PDF2Model) pipeline, significantly deepening my expertise in multimodal understanding and large-scale model deployment.
@@ -34,7 +34,7 @@ Research Interests
 Selected Publications & Projects
 ======
 **Stable Signer: Hierarchical Sign Language Generative Model**
-* *Accepted to ACL 2026 Main Conference (Oral)*
+* *Accepted to ACL 2026 Main Conference (Oral, Best Paper Nomination)*
 * Co-authors: Sen Fang, **Yalin Feng**, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas.
 
 **RAC: Rectified Flow Auto Coder**

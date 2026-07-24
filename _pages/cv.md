@@ -19,7 +19,7 @@ Research Experience
 * **Graduate Researcher**
   * Nanyang Technological University (NTU)
   * Focus: MLLM, Pose Generation, AIGC
-  * "Stable Signer: Hierarchical Sign Language Generative Model" (Accepted ACL 2026(oral))
+  * "Stable Signer: Hierarchical Sign Language Generative Model" (Accepted ACL 2026 Oral, Best Paper Nomination)
 Skills
 ======
 * **Research Domains:** Generative AI, Diffusion Models, Flow Matching, Latent Diffusion, Controllable Generation
