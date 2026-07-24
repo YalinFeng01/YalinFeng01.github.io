@@ -5,9 +5,9 @@ category: preprints
 permalink: /publication/2025-11-27-streamflow-5
 excerpt: 'This article proposes an overall acceleration pipeline for Rectified Flow models, achieving up to 611% speedup in image generation using novel batch processing and dynamic TensorRT compilation.'
 date: 2025-11-27
-venue: 'arXiv preprint'
+venue: 'ICML 2026'
 paperurl: 'https://arxiv.org/abs/2511.22009'
-citation: 'Sen Fang, Hongbin Zhong, <b>Yalin Feng</b>, Yanxin Zhang, Dimitris N. Metaxas. (2025). "StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation." <i>arXiv preprint arXiv:2511.22009</i>.'
+citation: 'Sen Fang, Hongbin Zhong, <b>Yalin Feng</b>, Yanxin Zhang, Dimitris N. Metaxas. (2026). "StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation." <i>International Conference on Machine Learning (ICML)</i>.'
 ---
 
 New technologies such as Rectified Flow and Flow Matching have significantly improved the performance of generative models in the past two years, especially in terms of control accuracy, generation quality, and generation efficiency. However, due to some differences in its theory, design, and existing diffusion models, the existing acceleration methods cannot be directly applied to the Rectified Flow model. 
