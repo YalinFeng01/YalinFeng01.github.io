@@ -38,11 +38,11 @@ Selected Publications & Projects
 * Co-authors: Sen Fang, **Yalin Feng**, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas.
 
 **RAC: Rectified Flow Auto Coder**
-* *arXiv preprint arXiv:2603.05925*
+* *NeurIPS (Under Review)*
 * Co-authors: Sen Fang, **Yalin Feng**, Yanxin Zhang, Dimitris N. Metaxas.
 
 **DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workflow Automation in the Era of Data-Centric AI**
-* *arXiv preprint arXiv:2512.16676*
+* *SIGMOD Round 2 (Under Review)*
 * Co-authors: Hao Liang, Xiaochen Ma, Zhou Liu ... **Yalin Feng** ... Conghui He, Linpeng Tang, Bin Cui, Weinan E, Wentao Zhang.
 
 ---
