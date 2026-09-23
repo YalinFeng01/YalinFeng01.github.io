@@ -3,246 +3,241 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yalin Feng - Homepage</title>
-    <meta name="description" content="Personal homepage of Yalin Feng.">
+    <meta name="theme-color" content="#08151f">
+    <title>Yalin Feng — Research Portfolio</title>
+    <meta name="description" content="Yalin Feng researches few-shot segmentation, multimodal learning, and generative modeling.">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="masthead">
-      <div class="masthead__inner-wrap">
-        <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
-          <ul class="visible-links">
-            <li class="masthead__menu-item masthead__menu-item--lg">
-              <a href="#about-me">Homepage</a>
-            </li>
-            <li class="masthead__menu-item"><a href="#about-me">About Me</a></li>
-            <li class="masthead__menu-item"><a href="#educations">Educations</a></li>
-            <li class="masthead__menu-item"><a href="#news">News</a></li>
-            <li class="masthead__menu-item"><a href="#research-interests">Research Interests</a></li>
-            <li class="masthead__menu-item"><a href="#publications">Publications</a></li>
-            <li class="masthead__menu-item"><a href="#experience">Experience</a></li>
-            <li class="masthead__menu-item"><a href="#skills">Skills</a></li>
-          </ul>
-        </nav>
-      </div>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Yalin Feng, home">
+        <span class="wordmark__mark">YF</span>
+        <span class="wordmark__name">Yalin Feng</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#open-source">Open source</a>
+        <a href="#experience">Experience</a>
+      </nav>
+      <a class="header-contact" href="mailto:feng0173@e.ntu.edu.sg">Contact <span aria-hidden="true">↗</span></a>
     </header>
 
-    <main id="main">
-      <aside class="sidebar sticky">
-        <section class="profile_box" aria-label="Profile">
-          <div class="author__avatar">
-            <img src="images/profile.jpg" alt="Yalin Feng profile image">
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow">Visual intelligence · Generative systems</p>
+          <h1 id="hero-title">Learning visual concepts from <em>less</em>, then generating <em>more</em>.</h1>
+          <p class="hero__lede">
+            I am Yalin Feng, a final-year Master's student at Nanyang Technological University.
+            My research connects few-shot segmentation, multimodal learning, and generative modeling.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#publications">Explore my work</a>
+            <a class="button button--quiet" href="mailto:feng0173@e.ntu.edu.sg">feng0173@e.ntu.edu.sg</a>
           </div>
-
-          <div class="author__content">
-            <h1 class="author__name">Yalin Feng</h1>
-            <p class="author__bio">Passion!</p>
-            <p class="author__affiliation">Nanyang Technological University</p>
+          <div class="hero__status">
+            <span class="status-dot" aria-hidden="true"></span>
+            Open to PhD and research opportunities
           </div>
-
-          <div class="author__urls-wrapper">
-            <ul class="author__urls social-icons">
-              <li><div class="profile-note">Few-Shot Segmentation · Multimodal Learning · Generative Modeling</div></li>
-              <li><a href="mailto:feng0173@e.ntu.edu.sg">✉ Email</a></li>
-              <li><a href="https://github.com/YalinFeng01" target="_blank" rel="noreferrer">◎ Github</a></li>
-              <li><a href="https://scholar.google.com/citations?user=K5ye36kAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">▣ Google Scholar</a></li>
-              <li><a href="https://orcid.org/0009-0000-8932-1545" target="_blank" rel="noreferrer">◇ ORCID</a></li>
-              <li><a href="/cv/">▤ CV</a></li>
-            </ul>
-            <div class="author__urls_sm" aria-label="Compact profile links">
-              <a href="mailto:feng0173@e.ntu.edu.sg">✉</a>
-              <a href="https://github.com/YalinFeng01" target="_blank" rel="noreferrer">◎</a>
-              <a href="https://scholar.google.com/citations?user=K5ye36kAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">▣</a>
-              <a href="https://orcid.org/0009-0000-8932-1545" target="_blank" rel="noreferrer">◇</a>
-              <a href="/cv/">▤</a>
-            </div>
-          </div>
-        </section>
-      </aside>
-
-      <article class="page">
-        <div class="page__inner-wrap">
-          <section class="page__content">
-            <span class="anchor" id="about-me"></span>
-
-            <h1 id="biography">👤 Biography</h1>
-            <p>
-              Welcome to my personal homepage!
-            </p>
-            <p>
-              I am currently a final-year Master's student at <strong>Nanyang Technological
-              University (NTU)</strong>. My research interests lie firmly at the intersection of
-              <strong>AIGC (AI-Generated Content)</strong>, <strong>Multimodal Manga/Anime
-              Generation</strong>, and <strong>Data-Centric AI</strong>. I am deeply passionate
-              about pushing the boundaries of advanced generative modeling techniques, with a
-              particular focus on Diffusion Models, Flow Matching, and MLLMs.
-            </p>
-            <p>
-              My primary research goal is to enhance visual consistency and production quality in
-              digital art and animation using state-of-the-art AI. Currently, I am exploring how to
-              optimize the SDXL VAE latent space using geometry-guided sparse correspondence and
-              cross-view attention.
-            </p>
-            <p>
-              I am actively seeking <strong>PhD opportunities</strong> or <strong>Research Assistant
-              (RA)</strong> positions for the upcoming application cycle.
-            </p>
-
-            <div class="highlight-block">
-              <h3>🫡 Motivation: "Why do I do research?"</h3>
-              <ul>
-                <li>To improve visual consistency and production quality in digital art and animation.</li>
-                <li>To build stronger generative modeling techniques around Diffusion Models, Flow Matching, and MLLMs.</li>
-                <li>To connect practical AI systems with creative production workflows.</li>
-              </ul>
-            </div>
-
-            <div class="highlight-blocks">
-              <div class="highlight-block">
-                <h3>🔬 Research Focus</h3>
-                <ul>
-                  <li>AIGC and multimodal manga/anime generation.</li>
-                  <li>Latent diffusion, flow matching, controllable generation, and pose generation.</li>
-                  <li>Data-centric AI workflows and evaluation pipelines.</li>
-                </ul>
-              </div>
-
-              <div class="highlight-block">
-                <h3>☎️ Contact Info</h3>
-                <ul>
-                  <li><strong>Email:</strong> feng0173[AT]e.ntu.edu.sg</li>
-                  <li><strong>Employer:</strong> Nanyang Technological University</li>
-                  <li>Feel free to reach out regarding research collaborations or PhD opportunities.</li>
-                </ul>
-              </div>
-            </div>
-
-            <span class="anchor" id="educations"></span>
-            <h1 id="-educations">🎓 Educations</h1>
-            <ul>
-              <li><strong>Nanyang Technological University (NTU)</strong>, Singapore, M.S. in Computer Control &amp; Automation, 2026 Expected.</li>
-              <li><strong>Victoria University</strong>, Australia, B.S. in Information Technology, 2024.06.30.</li>
-            </ul>
-
-            <span class="anchor" id="news"></span>
-            <h1 id="-news">🔥 News</h1>
-            <div class="news-panel">
-              <p><strong>[Current]</strong> Actively developing the new project, focusing on SDXL VAE optimization for high-quality visual consistency.</p>
-              <p><strong>[Apr 2026]</strong> Our paper <em>Stable Signer: Hierarchical Sign Language Generative Model</em> has been accepted to the <strong>ACL 2026 Main Conference</strong> as an <strong>Oral Presentation</strong> and received a <strong>Best Paper Nomination</strong>.</p>
-              <p><strong>[Jan 2026]</strong> Concluded a fruitful 6-month Research Assistantship at the DCAI Lab, Peking University. Grateful to Prof. Wentao Zhang and the team for their guidance and collaboration.</p>
-              <p><strong>[Nov 2025]</strong> Successfully developed and deployed a comprehensive evaluation pipeline for LLMs, establishing robust benchmarking protocols.</p>
-              <p><strong>[Sep 2025]</strong> Completed the core architecture for the PDF-to-Model (PDF2Model) pipeline, significantly deepening my expertise in multimodal understanding and large-scale model deployment.</p>
-              <p><strong>[Aug 2025]</strong> Joined the Data-Centric AI (DCAI) Lab at <strong>Peking University</strong> as a Research Assistant, supervised by Prof. Wentao Zhang.</p>
-              <p><strong>[Jul 2025]</strong> Started my journey as a remote Research Assistant by contributing to my first major open-source project, <em>DataFlow</em>.</p>
-            </div>
-
-            <span class="anchor" id="research-interests"></span>
-            <h1 id="-research-interests">🔬 Research Interests</h1>
-            <div class="highlight-blocks">
-              <div class="highlight-block">
-                <h3>Generative Models</h3>
-                <ul>
-                  <li>Diffusion Models, Flow Matching, and Latent Diffusion.</li>
-                </ul>
-              </div>
-              <div class="highlight-block">
-                <h3>Pose Generation</h3>
-                <ul>
-                  <li>Sign Language Generation and controllable pose generation.</li>
-                </ul>
-              </div>
-              <div class="highlight-block">
-                <h3>MLLM</h3>
-                <ul>
-                  <li>Multimodal understanding and generation with large language models.</li>
-                </ul>
-              </div>
-            </div>
-
-            <span class="anchor" id="publications"></span>
-            <h1 id="-publications">📝 Publications</h1>
-            <h2 id="-selected-publicationspreprints">📒 Selected publications/preprints</h2>
-
-            <div class="paper-box">
-              <div class="paper-box-image">
-                <div>
-                  <span class="badge">NeurIPS</span>
-                  <img src="assets/research-hero.png" alt="RAC teaser">
-                </div>
-              </div>
-              <div class="paper-box-text">
-                <p><strong>RAC: Rectified Flow Auto Coder</strong></p>
-                <ul>
-                  <li>Sen Fang, <strong>Yalin Feng</strong>, Yanxin Zhang, Dimitris N. Metaxas.</li>
-                  <li><strong>NeurIPS (Under Review)</strong>, 2026.</li>
-                  <li>RAC replaces traditional VAEs with bidirectional flow inference and multi-step decoding while reducing parameter count and compute.</li>
-                  <li><a href="https://arxiv.org/abs/2603.05925" target="_blank" rel="noreferrer">[Paper]</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="paper-box">
-              <div class="paper-box-image">
-                <div>
-                  <span class="badge">ICML'2026</span>
-                  <img src="assets/research-hero.png" alt="StreamFlow teaser">
-                </div>
-              </div>
-              <div class="paper-box-text">
-                <p><strong>StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation</strong></p>
-                <ul>
-                  <li>Sen Fang, Hongbin Zhong, <strong>Yalin Feng</strong>, Yanxin Zhang, Dimitris N. Metaxas.</li>
-                  <li><strong>International Conference on Machine Learning (ICML), 2026</strong>.</li>
-                  <li>An acceleration pipeline for Rectified Flow models with batch processing, vectorized timesteps, and dynamic TensorRT compilation.</li>
-                  <li><a href="https://arxiv.org/abs/2511.22009" target="_blank" rel="noreferrer">[Paper]</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <span class="anchor" id="experience"></span>
-            <h1 id="-experience">💼 Research Experience</h1>
-            <h4>Graduate Researcher</h4>
-            <ul>
-              <li><strong>Nanyang Technological University (NTU)</strong>.</li>
-              <li>Focus: MLLM, Pose Generation, AIGC.</li>
-              <li><em>Stable Signer: Hierarchical Sign Language Generative Model</em>, accepted by ACL 2026 Main Conference as an oral presentation with Best Paper Nomination.</li>
-            </ul>
-
-            <h4>Research Assistant</h4>
-            <ul>
-              <li><strong>Data-Centric AI (DCAI) Lab, Peking University</strong>, supervised by Prof. Wentao Zhang.</li>
-              <li>Contributed to DataFlow and related data-centric AI workflows.</li>
-            </ul>
-
-            <span class="anchor" id="skills"></span>
-            <h1 id="-skills">🛠️ Skills</h1>
-            <div class="highlight-blocks">
-              <div class="highlight-block">
-                <h3>Research Domains</h3>
-                <ul>
-                  <li>Generative AI, Diffusion Models, Flow Matching, Latent Diffusion, Controllable Generation.</li>
-                </ul>
-              </div>
-
-              <div class="highlight-block">
-                <h3>Programming &amp; Frameworks</h3>
-                <ul>
-                  <li>Python, PyTorch, C/C++.</li>
-                </ul>
-              </div>
-
-              <div class="highlight-block">
-                <h3>System &amp; Infrastructure</h3>
-                <ul>
-                  <li>HPC cluster management, Slurm, WSL administration, Git, Docker.</li>
-                </ul>
-              </div>
-            </div>
-          </section>
         </div>
-      </article>
+
+        <aside class="identity-card" aria-label="Profile and academic links">
+          <div class="identity-card__portrait">
+            <img src="images/profile.jpg" alt="Portrait of Yalin Feng">
+            <span class="identity-card__index" aria-hidden="true">01</span>
+          </div>
+          <div class="identity-card__meta">
+            <div><span class="meta-label">Affiliation</span><strong>Nanyang Technological University</strong></div>
+            <div><span class="meta-label">Focus</span><strong>Few-Shot Segmentation</strong></div>
+          </div>
+          <div class="identity-card__links">
+            <a href="https://github.com/YalinFeng01" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+            <a href="https://scholar.google.com/citations?user=K5ye36kAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Scholar <span>↗</span></a>
+            <a href="https://orcid.org/0009-0000-8932-1545" target="_blank" rel="noreferrer">ORCID <span>↗</span></a>
+            <a href="/cv/">CV <span>↗</span></a>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section section--statement" id="research">
+        <div class="section-heading">
+          <span class="section-number">01</span>
+          <div><p class="eyebrow">Research direction</p><h2>Models that see beyond the labels.</h2></div>
+        </div>
+        <p class="statement">
+          I study how visual models can generalize from limited supervision, and how generative
+          priors and multimodal knowledge can make segmentation systems more adaptable, expressive,
+          and reliable.
+        </p>
+        <div class="research-grid">
+          <article class="research-card">
+            <span class="research-card__number">A</span>
+            <h3>Few-Shot Segmentation</h3>
+            <p>Semantic segmentation under limited annotations, foundation models, and prompt-guided adaptation.</p>
+          </article>
+          <article class="research-card">
+            <span class="research-card__number">B</span>
+            <h3>Multimodal Learning</h3>
+            <p>Vision-language understanding, cross-modal alignment, and transferable representations.</p>
+          </article>
+          <article class="research-card">
+            <span class="research-card__number">C</span>
+            <h3>Generative Modeling</h3>
+            <p>Diffusion, flow matching, latent generative models, and controllable generation.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="publications">
+        <div class="section-heading">
+          <span class="section-number">02</span>
+          <div><p class="eyebrow">Selected work</p><h2>Publications</h2></div>
+          <p class="section-note">Hover to explore</p>
+        </div>
+        <div class="publication-list">
+          <article class="publication-card" tabindex="0">
+            <div class="publication-card__visual">
+              <img src="assets/research-hero.png" alt="Abstract research visualization for RAC">
+              <span class="venue">ICLR · Under Review</span>
+              <span class="publication-card__ordinal" aria-hidden="true">01</span>
+            </div>
+            <div class="publication-card__body">
+              <p class="publication-card__type">Generative modeling · 2026</p>
+              <h3>RAC: Rectified Flow Auto Coder</h3>
+              <p class="authors">Sen Fang, <strong>Yalin Feng</strong>, Yanxin Zhang, Dimitris N. Metaxas.</p>
+              <p class="publication-card__summary">
+                Replacing traditional VAEs with bidirectional flow inference and multi-step decoding
+                while reducing parameter count and compute.
+              </p>
+              <a class="text-link" href="https://arxiv.org/abs/2603.05925" target="_blank" rel="noreferrer">Read paper <span>↗</span></a>
+            </div>
+          </article>
+          <article class="publication-card" tabindex="0">
+            <div class="publication-card__visual">
+              <img src="assets/research-hero.png" alt="Abstract research visualization for StreamFlow">
+              <span class="venue">ICML · 2026</span>
+              <span class="publication-card__ordinal" aria-hidden="true">02</span>
+            </div>
+            <div class="publication-card__body">
+              <p class="publication-card__type">Efficient generation · 2026</p>
+              <h3>StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation</h3>
+              <p class="authors">Sen Fang, Hongbin Zhong, <strong>Yalin Feng</strong>, Yanxin Zhang, Dimitris N. Metaxas.</p>
+              <p class="publication-card__summary">
+                An acceleration pipeline for Rectified Flow with batch processing, vectorized
+                timesteps, and dynamic TensorRT compilation.
+              </p>
+              <a class="text-link" href="https://arxiv.org/abs/2511.22009" target="_blank" rel="noreferrer">Read paper <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="open-source">
+        <div class="section-heading">
+          <span class="section-number">03</span>
+          <div><p class="eyebrow">Built in the open</p><h2>Open-source project</h2></div>
+        </div>
+        <article class="project-card">
+          <div class="project-card__topline">
+            <span class="project-card__label">Featured contribution</span>
+            <a class="github-stars" href="https://github.com/OpenDCAI/DataFlow/stargazers" target="_blank" rel="noreferrer" aria-label="View DataFlow stargazers on GitHub">
+              <span aria-hidden="true">★</span><span data-github-stars="OpenDCAI/DataFlow">8.2k</span> stars
+            </a>
+          </div>
+          <div class="project-card__content">
+            <div>
+              <h3>DataFlow</h3>
+              <p>A unified, extensible framework for generating, cleaning, evaluating, and preparing high-quality data for modern AI workflows.</p>
+            </div>
+            <a class="project-arrow" href="https://github.com/OpenDCAI/DataFlow" target="_blank" rel="noreferrer" aria-label="Open DataFlow on GitHub">↗</a>
+          </div>
+          <div class="project-card__tags" aria-label="Project topics">
+            <span>Data-centric AI</span><span>LLM pipelines</span><span>Open source</span>
+          </div>
+        </article>
+      </section>
+
+      <section class="section section--split" id="experience">
+        <div>
+          <div class="section-heading section-heading--compact">
+            <span class="section-number">04</span>
+            <div><p class="eyebrow">Trajectory</p><h2>Experience</h2></div>
+          </div>
+          <div class="experience-list">
+            <article>
+              <span class="experience-list__period">2025 — 2026</span>
+              <h3>Graduate Researcher</h3>
+              <p>Nanyang Technological University</p>
+              <small>Few-shot segmentation, multimodal learning, and generative modeling.</small>
+            </article>
+            <article>
+              <span class="experience-list__period">2025 — 2026</span>
+              <h3>Research Assistant</h3>
+              <p>Data-Centric AI Lab · Peking University</p>
+              <small>DataFlow, LLM evaluation, and data-centric AI workflows.</small>
+            </article>
+          </div>
+        </div>
+        <div id="education">
+          <div class="section-heading section-heading--compact">
+            <span class="section-number">05</span>
+            <div><p class="eyebrow">Education</p><h2>Academic path</h2></div>
+          </div>
+          <div class="education-list">
+            <article>
+              <span>Expected 2026</span>
+              <h3>Nanyang Technological University</h3>
+              <p>M.S. in Computer Control &amp; Automation</p>
+            </article>
+            <article>
+              <span>2024</span>
+              <h3>Victoria University</h3>
+              <p>B.S. in Information Technology</p>
+              <small>Second Class Honours (Division A)</small>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="news">
+        <div class="section-heading">
+          <span class="section-number">06</span>
+          <div><p class="eyebrow">Recent milestones</p><h2>News</h2></div>
+        </div>
+        <div class="timeline">
+          <article class="timeline__item timeline__item--current"><time>Current</time><p>Exploring generative models for few-shot segmentation.</p></article>
+          <article class="timeline__item"><time>Apr 2026</time><p>Our paper <em>StreamFlow</em> was accepted to <strong>ICML 2026</strong>.</p></article>
+          <article class="timeline__item"><time>Jan 2026</time><p>Concluded a productive six-month Research Assistantship at the DCAI Lab, Peking University.</p></article>
+          <article class="timeline__item"><time>Nov 2025</time><p>Developed and deployed a comprehensive evaluation pipeline for LLMs.</p></article>
+          <article class="timeline__item"><time>Sep 2025</time><p>Completed the core architecture of the PDF-to-Model pipeline.</p></article>
+          <article class="timeline__item"><time>Aug 2025</time><p>Joined the Data-Centric AI Lab at Peking University as a Research Assistant.</p></article>
+          <article class="timeline__item"><time>Jul 2025</time><p>Began contributing to the open-source project <em>DataFlow</em>.</p></article>
+        </div>
+      </section>
+
+      <section class="section section--skills" id="skills">
+        <div class="section-heading section-heading--compact">
+          <span class="section-number">07</span>
+          <div><p class="eyebrow">Toolkit</p><h2>Methods &amp; systems</h2></div>
+        </div>
+        <div class="skill-cloud">
+          <span>PyTorch</span><span>Python</span><span>C/C++</span><span>Diffusion Models</span>
+          <span>Flow Matching</span><span>Vision Foundation Models</span><span>Docker</span>
+          <span>Slurm</span><span>HPC</span><span>Git</span>
+        </div>
+      </section>
     </main>
 
+    <footer class="site-footer">
+      <p>Yalin Feng <span aria-hidden="true">—</span> Researching adaptive visual intelligence.</p>
+      <div class="site-footer__actions">
+        <a class="visitor-badge" href="https://visitorbadge.io/status?path=https%3A%2F%2Fyalinfeng01.github.io" target="_blank" rel="noreferrer" title="View visitor statistics">
+          <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fyalinfeng01.github.io&amp;labelColor=%232ccce4&amp;countColor=%23555555&amp;style=flat&amp;labelStyle=upper" alt="Visitor count for yalinfeng01.github.io">
+        </a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
