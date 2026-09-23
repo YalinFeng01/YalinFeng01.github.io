@@ -292,7 +292,7 @@ main, .site-footer { width: min(calc(100% - 2rem), var(--max-width)); margin-inl
 .experience-list small, .education-list small { color: var(--muted); font-size: .78rem; }
 .timeline { margin-left: 42px; border-top: 1px solid var(--line); }
 .timeline__item { display: grid; grid-template-columns: 150px 1fr; gap: 2rem; align-items: baseline; padding: 1.25rem 0; border-bottom: 1px solid var(--line); }
-.timeline__item time { color: var(--muted); font-family: ui-monospace, Consolas, monospace; font-size: .72rem; text-transform: uppercase; }
+.timeline__item time { color: var(--muted); font-family: ui-monospace, Consolas, monospace; font-size: .9rem; font-weight: 700; letter-spacing: .01em; text-transform: uppercase; }
 .timeline__item p { margin: 0; font-size: .95rem; }
 .timeline__item--current time, .timeline__item--current p { color: var(--cyan-deep); font-weight: 700; }
 .section--skills { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(2rem, 8vw, 7rem); align-items: start; }
