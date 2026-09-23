@@ -104,6 +104,7 @@ main, .site-footer { width: min(calc(100% - 2rem), var(--max-width)); margin-inl
 }
 .hero h1 em { color: var(--cyan-deep); font-weight: 500; }
 .hero__lede { max-width: 680px; margin-bottom: 2rem; color: var(--ink-soft); font-size: clamp(1.02rem, 1.5vw, 1.18rem); line-height: 1.75; }
+.hero__lede--secondary { margin-top: -1rem; color: var(--muted); font-size: 1rem; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-bottom: 1.65rem; }
 .button {
   display: inline-flex;
